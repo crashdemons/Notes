@@ -1,6 +1,6 @@
 # Importing Existing maven projects in various IDEs
 
-## Netbeans (8.2)
+## Netbeans (8.2-11.1)
 To open a maven project in netbeans you can either open your project folder (the one containing the POM.xml) directly as a project with the `File > Open Project ...` menu
 
 or

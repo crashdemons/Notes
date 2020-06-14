@@ -8,8 +8,12 @@ or
 you can create a new project, select the Maven category, and choose "Project with Existing POM" - which then prompts you to select the project folder like before.
 
 ## Eclipse 
-
 * Open eclipse
+* Ensure you have the Maven Support Plugin
+  * Click Help > Install new software
+  * Enter https://download.eclipse.org/technology/m2e/milestones/1.15/
+  * Select "Maven Integration for Eclipse"
+  * Click Next as many times as required.
 * Click File > Import
 * Type Maven in the search box under Select an import source:
 * Select Existing Maven Projects
@@ -17,6 +21,7 @@ you can create a new project, select the Maven category, and choose "Project wit
 * Click Browse and select the folder that is the root of the Maven project (probably contains the pom.xml file)
 * Click Next
 * Click Finish
+* Run the project for the first time and enter the goal `clean install` or `clean compile` as you prefer for the default goal. (install will add the project to your local maven repo to allow use as a dependency - as well as all intermediate goals)
 
 
 ## IntelliJ 
